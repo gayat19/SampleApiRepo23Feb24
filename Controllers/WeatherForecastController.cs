@@ -6,6 +6,7 @@ namespace SampleAPIApp.Controllers
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
+        int num1;
         private static readonly string[] Summaries = new[]
         {
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
@@ -15,6 +16,7 @@ namespace SampleAPIApp.Controllers
 
         public WeatherForecastController(ILogger<WeatherForecastController> logger)
         {
+            num1 = 100;
             _logger = logger;
         }
 

@@ -7,10 +7,14 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "SampleAPIApp/1.0.0": {
+        "dependencies": {
+          "SonarAnalyzer.CSharp": "6.8.2.4717"
+        },
         "runtime": {
           "SampleAPIApp.dll": {}
         }
-      }
+      },
+      "SonarAnalyzer.CSharp/6.8.2.4717": {}
     }
   },
   "libraries": {
@@ -18,6 +22,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "SonarAnalyzer.CSharp/6.8.2.4717": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uShtRnn6zSehnmCYvCnvUhfaApPSQDe3xe+Y6V6AJgcJoPBhod0ccH2nsr8aaVcI+RLUzqiulrtVhVmNJ95Ong==",
+      "path": "sonaranalyzer.csharp/6.8.2.4717",
+      "hashPath": "sonaranalyzer.csharp.6.8.2.4717.nupkg.sha512"
     }
   }
 }

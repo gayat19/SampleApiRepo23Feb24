@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "E29vWsjUDAYj+dBG0njFhQ5X5U/yezcMnAIeFv8ge9OncI9rzeoSyU8LmyEKreiJ9R90KA4+a9I26Y2DAFVmkg==",
+  "dgSpecHash": "FBqUsxN+VBD1a9euUugD1VtsXzl72aqFCLa1cSjUW/KYpT3ZVDKYX4YJ9tnreW0thQoYBe+swaSJ05Dxwbn2jQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\gayat\\OneDrive\\Desktop\\CICDApp\\SampleAPIApp\\SampleAPIApp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\gayat\\.nuget\\packages\\sonaranalyzer.csharp\\6.8.2.4717\\sonaranalyzer.csharp.6.8.2.4717.nupkg.sha512"
+  ],
   "logs": []
 }
