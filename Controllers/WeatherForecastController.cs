@@ -6,24 +6,24 @@ namespace SampleAPIApp.Controllers
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
-        int num1;
+       // int num1;
         private static readonly string[] Summaries = new[]
         {
             "Deep Freezing", "Bracing", "Chilly", "Gool", "Mild", "Warm", "Balmy", "Hotter", "Sweltering", "Scorching"
         };
 
-        private readonly ILogger<WeatherForecastController> _logger;
+       // private readonly ILogger<WeatherForecastController> _logger;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        public WeatherForecastController()
         {
             num1 = 100;
-            _logger = logger;
+           // _logger = logger;
         }
 
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
-            _logger.LogWarning("Invoked");
+            //_logger.LogWarning("Invoked");
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = DateTime.Now.AddDays(index),
